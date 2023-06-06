@@ -19,7 +19,7 @@ def play_game():
         if player_turn:
             # 플레이어 차례
             user_input = input("당신의 차례입니다. 숫자 또는 '짝'을 입력하세요: ")
-            if user_input.lower() == "다시시작" or "restart":
+            if user_input.lower() == "다시시작":
                 # 게임 다시 시작
                 current_number = 1
                 player_turn = False
@@ -108,7 +108,7 @@ def play_game_with_ui():
         if player_turn:
             # 플레이어 차례
             user_input = input("당신의 차례입니다. 숫자 또는 '짝'을 입력하세요: ")
-            if user_input.lower() == "다시시작" or "restart":
+            if user_input.lower() == "다시시작":
                 # 게임 다시 시작
                 current_number = 1
                 player_turn = False
